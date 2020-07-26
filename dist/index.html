@@ -1,0 +1,19 @@
+<html>
+<body>
+<div id="content_event"></div>
+<div id="content_words"></div>
+
+<script type="text/javascript">
+    const source = new EventSource('/events');
+
+    source.addEventListener('message', message => {
+        if(message.data.indexOf('words:')){
+            document.querySelector('#content_event').innerHTML = message.data;
+        }
+        else if(message.data.indexOf('events:')){
+            document.querySelector('#content_words').innerHTML = message.data;
+        }
+    });
+</script>
+</body>
+</html>
