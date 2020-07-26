@@ -4,8 +4,7 @@ Backend exercise - BigPanda
 
 ---
 ## Requirements
-
-    Installed Node.js and npm
+Installed Node.js and npm
 
 ## Install
 
@@ -18,10 +17,11 @@ Backend exercise - BigPanda
 
     $ npm run start
     
-    Listening port 3003  (http://localhost:3003/)
+Listening port 3003  (http://localhost:3003/)
     
 ## Improvments (TODO)
+Logging errors
 
-    Logging errors
-    Stats storage
-    Use Docker
+Stats storage
+
+Use Docker
