@@ -1,7 +1,4 @@
-# Project Title
-
-Backend exercise - BigPanda
-
+# Backend exercise - BigPanda
 ---
 ## Requirements
 Installed Node.js and npm
