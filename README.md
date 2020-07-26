@@ -5,7 +5,7 @@ Backend exercise - BigPanda
 ---
 ## Requirements
 
-Installed Node.js and npm 
+    Installed Node.js and npm
 
 ## Install
 
@@ -17,6 +17,8 @@ Installed Node.js and npm
 ## Running the project
 
     $ npm run start
+    
+    Listening port 3003  (http://localhost:3003/)
     
 ## Improvments (TODO)
 
