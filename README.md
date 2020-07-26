@@ -12,6 +12,7 @@ Installed Node.js and npm
     $ git clone https://github.com/xbumasa/bigpanda.git
     $ cd bigpanda
     $ npm install
+    $ chmod a+x generator/generator-linux-amd64
 
 ## Running the project
 
